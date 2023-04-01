@@ -1,0 +1,46 @@
+.aims-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* background-image: url(eclipse.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-position-x: right; */
+    height: 100vh;
+    clip-path: polygon(0 9%, 100% 0, 100% 95%, 0% 100%);
+    border-bottom-right-radius: 20px;
+    border-bottom: 40px solid #004581;
+
+}
+.aims-all img{
+    width: 500px;
+    height: 600px;
+    align-self: flex-end;
+    position: absolute;
+    bottom:-700px ;
+    transform: scale(1);
+}
+.aims-all h1{
+    text-align: center;
+}
+
+.aims{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 10px;
+    
+}
+ul.aims li{
+list-style: none;
+width: 100%;
+background-color: #018ABD;
+padding: 20px 100px;
+border-radius: 5px;
+
+}

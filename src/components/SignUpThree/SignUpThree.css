@@ -1,0 +1,36 @@
+.SignUpThree{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Montserrat', sans-serif;
+}
+.SignUpThree a{
+    color: #000;
+}
+.SignUpThree :nth-child(2) :nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 100px;
+}
+.SignUpThree :nth-child(2) :nth-child(1) img{
+    align-self: flex-end;
+    transform: scale(.8);
+}
+.SignUpThree :nth-child(2) :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+.SignUpThree :nth-child(2) :nth-child(2) h1{
+margin-top: -80px;}
+.SignUpThree :nth-child(2) :nth-child(2) button{
+    width: 600px;
+    height: 50px;
+    margin-left: -2px;
+    background-color: #fff;
+    color: rgba(34, 34, 34, 0.5);
+    border: 1px solid rgba(34, 34, 34, 0.8);
+border-radius: 10px;
+}

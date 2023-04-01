@@ -1,0 +1,45 @@
+.our-product{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: linear-gradient(270deg, #038BBE 0%, #B5DEF7 130.97%);
+    padding: 20px;
+} 
+.our-product h1{
+    color: #fff;
+}
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.first-product, 
+.second-product, 
+.third-product{
+    width: 242px;
+height: 350px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+background: #DCECF6;
+box-shadow: -10px -6px 1px #fff;
+border-radius: 10px;
+text-align: start;
+}
+.first-product ::marker,
+.second-product ::marker,
+.third-product ::marker{
+    color: #004682;
+}
+.first-product li,
+.second-product li,
+.third-product li{
+    font-size: 30px;
+    font-weight: 600;
+
+}

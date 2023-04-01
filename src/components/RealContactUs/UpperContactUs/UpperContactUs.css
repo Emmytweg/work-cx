@@ -1,0 +1,24 @@
+.UpperContactUs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 60px;
+    background-color: #018ABD;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+}
+.UpperContactUs :nth-child(2) button{
+border: 1px solid #fff;
+height: 60px;
+width: 160px;
+border-radius: 10px;
+color: #fff;
+background-color: #018ABD;
+font-family: 'Lexend', sans-serif;
+font-weight: 600;
+}
+.UpperContactUs :nth-child(2) button:hover{
+    background-color: #fff;
+    color: #018ABD;
+}

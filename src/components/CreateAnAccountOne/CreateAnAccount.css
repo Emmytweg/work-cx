@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Work+Sans:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+.all-create{
+     display: grid;
+    justify-content: space-between;
+    align-items: flex-start;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Montserrat', sans-serif;
+}
+.initial img{
+ position: relative;
+ left: 60%;
+ transform: scale(.8);
+}
+.initial p{
+margin-left: -5px;
+}
+.first-create img{
+width: 90%;
+height: 180vh;
+}
+.second-create {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 70px;
+}
+.second-create  input.unchange{
+    height: 50px;
+    width: 420px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.second-create label{
+    margin-left: -250px;
+}
+.confirm input{
+    height: 50px;
+    width: 420px;
+    border-radius: 5px;
+}
+
+.svg{
+    margin-left: -40px;
+    margin-top: 10px;
+}
+.resetPassword{
+    display: flex;
+    gap: 50px;
+}
+.all-conta a{
+    color: #34A1CA;
+}
+.login-btn{
+    height: 50px;
+    width: 420px;
+    padding: 5px;
+border-radius: 5px;
+background: #34A1CA;
+border: none;
+color: #fff;
+}
+.login-btn:hover{
+    background-color: #fff;
+    color: #34A1CA;
+}
+.unblock{
+    display: flex;
+    gap: 10px;
+}
+.unblock input{
+    width: 210px !important;
+}
+.login-link{
+    font-weight: 700;
+}
+.login-link a{
+    color: #34A1CA;
+
+}

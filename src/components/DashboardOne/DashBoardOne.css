@@ -1,0 +1,9 @@
+.dashboardOne{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    gap:  0;
+    height: 1024px;
+    width: 90rem ;
+    overflow: hidden;
+}

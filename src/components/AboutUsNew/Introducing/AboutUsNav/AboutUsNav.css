@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Work+Sans:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+.aboutusnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+.aboutusnav  li{
+    list-style: none;
+}
+.aboutusnav:nth-child(1){
+    margin-left: -50px;
+}
+
+.aboutusnav img{
+    transform: scale(.5);
+}
+.inner-aboutusnav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.inner-aboutusnav a{
+    color: #000;
+    font-weight: 700;
+}
+.inner-aboutusnav a:hover{
+    color: #018ABD;
+}
+.aboutusnav :nth-child(3){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   gap: 20px;
+
+}
+.aboutusnav :nth-child(3) li button{
+background-color: #018ABD;
+border: 1px solid #fff;
+color: #fff;
+padding: 15px;
+border-radius: 10px;
+width: 100px;
+font-weight: 700;
+}
+.aboutusnav :nth-child(3) li button:hover{
+    background-color: #fff;
+    color: #018ABD;
+}

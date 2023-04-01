@@ -1,0 +1,107 @@
+.dashBoardSideBar{
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.1);
+    height: 1200px;
+    width: 18.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  
+ 
+}
+
+.dashBoardSideBar li{
+    list-style: none;  
+    color: #000;
+}
+
+.profile-info{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    text-align: start;
+    width:14.9375rem;
+    height: 3.75rem;
+    gap: 20px;
+    padding: 0;
+    position: absolute;
+    left: 25px;
+top: 145px;
+}
+
+.profile-info :nth-child(2) :nth-child(1){
+    font-weight: 700;
+}
+.profile-info :nth-child(2) :nth-child(2){
+    font-size: 10px;
+}
+.sideBarLogo img{
+height: auto;
+width: 151px;
+}
+.lowerFeatures{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-weight: 600;
+   margin: auto;
+   line-height: 25px;
+   position: absolute;
+   left: 0px;
+   top: 242px;
+
+}
+.lowerFeatures li{
+    padding: 0;
+    margin: 0;
+    
+}
+.lowerFeatures li:hover,
+.lowerFeatures li:active,
+ .sideBarSupport li:hover,
+ .sideBarSupportli:active{
+    background-color: #018ABD;
+    height: 50px;
+    width: 270px;
+    position: absolute;
+    padding: 20px 10px 0;
+    color: #fff;
+    transition: all .5s ease-in-out;
+    line-height: 20px;
+    left: 0;
+    order: 0;
+    flex-grow: 0;
+}
+.sideBarSupport li{
+    align-self: center;
+    justify-self: center;
+    margin: 0 0 25px;
+    padding: 0;
+    gap: 10px;
+    /* width: 88px; */
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.sideBarSupport{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-weight: 600;
+   margin: auto;
+   /* line-height: 25px; */
+   position: absolute;
+   left: 0px;
+   top: 750px;
+}
+hr.the-line{
+    position: absolute;
+    width: 290px;
+    height: 0px;
+    left: 0px;
+    top: 708px;
+    
+    border: 1px solid rgba(34, 34, 34, 0.3);
+}

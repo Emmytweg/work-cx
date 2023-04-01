@@ -1,0 +1,50 @@
+.all-conta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin: 0 70px;
+}
+.first-conta{
+    width: 50%;
+    
+}
+.first-conta p{
+    margin-left: -10px;
+}
+.second-conta form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 70px;
+}
+.second-conta form input.unchange{
+    height: 50px;
+    width: 420px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.svg{
+    margin-left: -40px;
+    margin-top: 10px;
+}
+.resetPassword{
+    display: flex;
+    gap: 50px;
+}
+.all-conta a{
+    color: #34A1CA;
+}
+.login-btn{
+    height: 50px;
+    width: 420px;
+    padding: 5px;
+border-radius: 5px;
+background: #34A1CA;
+border: none;
+color: #fff;
+}
+.login-btn:hover{
+    background-color: #fff;
+    color: #34A1CA;
+}

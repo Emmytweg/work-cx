@@ -1,0 +1,33 @@
+.realnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: 'Lexend', sans-serif;
+    /* gap: 30px; */
+}
+ul.realnav  li{
+    list-style: none;
+}
+.realnav:nth-child(1){
+    margin-left: -50px;
+}
+
+.realnav img{
+    transform: scale(.5);
+}
+.inner-realnav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.inner-realnav a{
+    color: #000;
+    font-weight: 600;
+}
+.inner-realnav a:hover{
+    color: #018ABD
+}
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800&display=swap');

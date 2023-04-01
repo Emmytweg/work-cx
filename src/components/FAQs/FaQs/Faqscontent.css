@@ -1,0 +1,73 @@
+.Faqscontents{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+}
+
+.Faqscontents :nth-child(1){
+    display: grid;
+justify-content: center;
+align-items: center;
+}
+.Faqscontents :nth-child(1) h2{
+    margin-left: 50px;
+}
+.Faqscontents :nth-child(1) small{
+    margin-left: 100px;
+}
+.Faqscontents :nth-child(1) :nth-child(4){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding: 10px 10px;
+    gap: 10px;
+}
+.Faqscontents :nth-child(1) input{
+    position: relative;
+    width: 400px;
+    height: 50px;
+   text-indent: 50px;
+    background: #FFFFFF;
+    border: 1px solid #018ABD;
+    border-radius: 10px;
+    /* color: #0000; */
+}
+
+ .Faqscontents :nth-child(1)  .search-icon{
+    align-self: flex-start;
+    position: absolute;
+    margin: 0 10px 0 ;
+opacity: .7;
+} 
+
+/* Questions */
+.question{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  width: 70%;
+  
+  margin: 0 200px;
+}
+
+.question-sign{
+    display: flex ;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.content{
+    max-height: 0;
+    overflow: hidden;
+
+}
+ .show{
+    height: auto;
+    max-height: 99px;
+    color: #000;
+    
+}
+
