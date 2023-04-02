@@ -3,8 +3,8 @@ import './AfterRealNav.css'
 import { Link } from 'react-router-dom'
 import squares from './squares.png'
 import { useReducer } from 'react'
-import { ACTIONS } from '../../Reducer'
-import { reducer } from '../../Reducer'
+import { ACTIONS } from '../../../Reducer'
+import { reducer } from '../../../Reducer'
 function AfterRealNav(  ) {
 const [state, dispatch] = useReducer(reducer, {show : false})
 

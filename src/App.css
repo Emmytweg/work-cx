@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.hide{
+  display: none;
+}
+@media screen and (max-width:1000px) {
+  .hide{
+    display: block;
+  }
+}

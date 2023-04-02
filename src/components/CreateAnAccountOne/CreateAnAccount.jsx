@@ -4,8 +4,8 @@ import handshake from './handshake.png'
 import './CreateAnAccount.css'
 import { Link } from 'react-router-dom'
 import { useReducer } from 'react'
-import { ACTIONS } from '../Reducer'
-import { reducer } from '../Reducer'
+import { ACTIONS } from '../../Reducer'
+import { reducer } from '../../Reducer'
 function CreateAnAccount() {
     const [state, dispatch] = useReducer(reducer, {show : false})
 

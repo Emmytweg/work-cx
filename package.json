@@ -44,6 +44,9 @@
   "react": "^18.2.0",
   
     
+  "react-chartjs-2": "^5.2.0",
+  
+    
   "react-dom": "^18.2.0",
   
     
@@ -61,8 +64,14 @@
   },
   
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build", 
+  
+    
+  "predeploy": "npm run build",
+  
+    
+  "deploy": "gh-pages -b master -d build",
+  
+    
   "start": "react-scripts start",
   
     
