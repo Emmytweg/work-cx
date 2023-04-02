@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/work-cx/static/css/main.073c9b0a.css",
-    "main.js": "/work-cx/static/js/main.a8742b22.js",
+    "main.css": "/work-cx/static/css/main.d727df12.css",
+    "main.js": "/work-cx/static/js/main.1d384264.js",
     "static/js/787.0e8a6972.chunk.js": "/work-cx/static/js/787.0e8a6972.chunk.js",
-    "static/media/logo.svg": "/work-cx/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/frame.png": "/work-cx/static/media/frame.891e287f8509750f36dd.png",
+    "static/media/handshake.png": "/work-cx/static/media/handshake.f777df1c1cb0b9484ac7.png",
+    "static/media/question.jpg": "/work-cx/static/media/question.bcccd4539c215083eca2.jpg",
+    "static/media/customer.jpg": "/work-cx/static/media/customer.f6e5abca496a344bbbcc.jpg",
+    "static/media/squares.png": "/work-cx/static/media/squares.9839e04aced76dd1251e.png",
+    "static/media/image.jpg": "/work-cx/static/media/image.f6263e8fbb30baae8ef7.jpg",
+    "static/media/logo.jpg": "/work-cx/static/media/logo.76e4a8e97dc3cf09262a.jpg",
+    "static/media/girlTwo.png": "/work-cx/static/media/girlTwo.62fd2ec58dfc9118918a.png",
+    "static/media/male.png": "/work-cx/static/media/male.3c632ee10ee1f299280f.png",
+    "static/media/bigeclipse.png": "/work-cx/static/media/bigeclipse.2a888b0fdee1c0442f6b.png",
     "index.html": "/work-cx/index.html",
-    "main.073c9b0a.css.map": "/work-cx/static/css/main.073c9b0a.css.map",
-    "main.a8742b22.js.map": "/work-cx/static/js/main.a8742b22.js.map",
+    "main.d727df12.css.map": "/work-cx/static/css/main.d727df12.css.map",
+    "main.1d384264.js.map": "/work-cx/static/js/main.1d384264.js.map",
     "787.0e8a6972.chunk.js.map": "/work-cx/static/js/787.0e8a6972.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.a8742b22.js"
+    "static/css/main.d727df12.css",
+    "static/js/main.1d384264.js"
   ]
 }
